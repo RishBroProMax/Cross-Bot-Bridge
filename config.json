@@ -7,5 +7,9 @@
   "commandPrefix": "!",
   "logLevel": "info",
   "admins": ["admin1", "admin2"],
-  "owner": "ownerUsername"
+  "owner": "ownerUsername",
+  "userMapping": {
+    "discordUser1": "telegramUser1",
+    "discordUser2": "telegramUser2"
+  }
 }
