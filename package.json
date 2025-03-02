@@ -20,6 +20,9 @@
     "admin",
     "owner"
   ],
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+   },
   "author": "RishBroProMax",
   "license": "MIT",
   "bugs": {
