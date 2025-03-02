@@ -1,10 +1,11 @@
 {
-    "discordToken": "YOUR_DISCORD_BOT_TOKEN",
-    "telegramToken": "YOUR_TELEGRAM_BOT_TOKEN",
-    "telegramChatId": "YOUR_TELEGRAM_CHAT_ID",
-    "discordPrefix": "Discord",
-    "telegramPrefix": "Telegram",
-    "logLevel": "info",
-    "admins": ["admin1", "admin2"],
-    "owner": "ownerUsername"
-  }
+  "discordToken": "YOUR_DISCORD_BOT_TOKEN",
+  "telegramToken": "YOUR_TELEGRAM_BOT_TOKEN",
+  "telegramChatId": "YOUR_TELEGRAM_CHAT_ID",
+  "discordPrefix": "Discord",
+  "telegramPrefix": "Telegram",
+  "commandPrefix": "!",
+  "logLevel": "info",
+  "admins": ["admin1", "admin2"],
+  "owner": "ownerUsername"
+}

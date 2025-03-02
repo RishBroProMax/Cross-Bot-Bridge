@@ -1,10 +1,11 @@
 {
   "name": "cross-bot-bridge",
-  "version": "1.1.0",
-  "description": "A simple and customizable cross-bot bridge package that connects Discord and Telegram with admin and owner features.",
+  "version": "1.2.0",
+  "description": "A simple and customizable cross-bot bridge package that connects Discord and Telegram with admin and owner features, auto-reconnecting, media handling, and a command system.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,15 @@
     "telegram",
     "customizable",
     "admin",
-    "owner"
+    "owner",
+    "auto-reconnect",
+    "media",
+    "command",
+    "real-time",
+    "secure",
+    "reliable",
+    "low overhead"
   ],
-  "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
-   },
   "author": "RishBroProMax",
   "license": "MIT",
   "bugs": {
@@ -33,6 +38,9 @@
     "discord.js": "^14.0.0",
     "node-telegram-bot-api": "^0.50.0",
     "loglevel": "^1.8.0",
-    "loglevel-plugin-prefix": "^0.8.4"
+    "loglevel-plugin-prefix": "^0.8.4",
+    "chalk": "^4.1.2",
+    "log-symbols": "^4.1.0",
+    "progress": "^2.0.3"
   }
 }
