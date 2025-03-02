@@ -4,5 +4,7 @@
     "telegramChatId": "YOUR_TELEGRAM_CHAT_ID",
     "discordPrefix": "Discord",
     "telegramPrefix": "Telegram",
-    "logLevel": "info"
+    "logLevel": "info",
+    "admins": ["admin1", "admin2"],
+    "owner": "ownerUsername"
   }
