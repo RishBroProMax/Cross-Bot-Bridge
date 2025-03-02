@@ -1,7 +1,6 @@
 # Cross Bot Bridge
 
-[![npm version](https://badge.fury.io/js/cross-bot-bridge.svg)](https://badge.fury.io/js/cross-bot-bridge)
-[![Build Status](https://travis-ci.com/RishBroProMax/cross-bot-bridge.svg?branch=main)](https://travis-ci.com/RishBroProMax/cross-bot-bridge)
+[![npm version](https://badge.fury.io/js/cross-bot-bridge.png?icon=si%3Anpm)](https://badge.fury.io/js/cross-bot-bridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple and customizable cross-bot bridge package that connects Discord and Telegram with admin and owner features.
